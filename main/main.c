@@ -2,6 +2,8 @@
 #include<stdlib.h>
 #include<string.h>
 #include<pthread.h>
+#include<semaphore.h>
+#include "functions.h"
 
 //This is just a test function.
 void *func(void *arg)
@@ -32,5 +34,7 @@ int main()
         pthread_join(thread_array[i], NULL);
     }
     
+    test();
+
     return 0;
 }
