@@ -15,7 +15,7 @@ A multithreaded file manager designed to perform synchronized file operations ac
 - **Interactive Content Input**  
   Supports multiline content input for write operations, with a maximum of 1024 characters per file.
 
-- **Rich File Operations**  
+- **File Operations**  
   - Reading and writing files.
   - Retrieving file metadata (size, permissions, creation time).
   - Copying, deleting, and renaming files.
